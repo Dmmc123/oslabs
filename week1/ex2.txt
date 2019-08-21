@@ -1,0 +1,9 @@
+    1  history
+    2  ls
+    3  cd ..
+    4  cd week1
+    5  cd ~/week1
+    6  whoami
+    7  man man
+    8  man --help
+    9  history > ex2.txt
