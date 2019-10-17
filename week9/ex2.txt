@@ -1,0 +1,15 @@
+Let N be the parameter for the program
+
+With N = 10 set, to increase the hit/miss ratio I used sequence 
+1 2 3 1 2 3 1 2 3 1 
+And got ratio 7/3
+
+This is because sequence contains the majority of numbers of frequently used pages 
+And via aging algorithm only first 3 are considered as misses
+
+Meanwhile the ratio can be decreased if the sequence would look somehow like this
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 20
+And the corresponding ratio 1/20
+
+It happened because the program got the only hit when the last 20 
+coincided with the previously used page (20)
