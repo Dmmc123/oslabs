@@ -1,0 +1,11 @@
+touch _ex3.txt
+chmod a-x _ex3.txt
+chmod uo+rwx _ex3.txt
+chmod g=u _ex3.txt
+
+660 - octal representation of symbolic permission rw-rw----
+owner and group can only read and write (no permissions for others) file _ex3.txt
+775 - octal representation of symbolic permission rwxrwxr-x
+owner and group can read, write and execute, others can only read and execute file _ex3.txt
+777 - octal representation of symbolic permission rwxrwxrwx
+all can read, write and execute file _ex3.txt

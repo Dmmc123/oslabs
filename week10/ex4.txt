@@ -1,0 +1,6 @@
+/home/ruslan/exercises/tmp/link1
+/home/ruslan/exercises/tmp/file1.txt
+/home/ruslan/exercises/tmp
+/home/ruslan/exercises
+/home/ruslan/exercises/tmp/link1
+/home/ruslan/exercises/tmp/file1.txt

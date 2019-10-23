@@ -1,0 +1,10 @@
+cd exercises/week01
+touch file.txt
+cd ..
+link week01/file.txt week10/_ex2.txt
+ls -i week01/file.txt
+	533286 week01/file.txt
+find ~ -inum 533286
+	/home/ruslan/exercises/week10/_ex2.txt
+	/home/ruslan/exercises/week01/file.txt
+find ~ -inum 533286 -exec rm {} \;
