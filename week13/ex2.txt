@@ -1,0 +1,25 @@
+(list of some pros and cons of deadlock dealing methods)
+
+I. Recovery
+	Advantage: never delays process initialization
+	Disadvantage: cause preemption losses
+II. Prevention
+	Advantage: works well whenever a process state can be saved
+	Disadvantage: delays process initialization
+III. Avoidance
+	Advantage: no neccessary preemption needed 
+	Disadvantage: future requirements must be know by OS
+
+I. Recovery method is better when OS is dealing with
+a process that should be procceded fastly 
+(Prevention and Avoidance methods may take some time)
+
+II. Prevention method is better when a process state can be saved
+It mostly prevents data corruption 
+(while Recovery and Avoidance methods may cause 
+unintended losses in time and data)
+
+III. Avoidance method is better when there are provided 
+means to get the resource requirements so it figures the safe way
+faster (while other methods affect preemption and cause delays)
+
